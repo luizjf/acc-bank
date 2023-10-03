@@ -1,0 +1,56 @@
+.requestB{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.thx_request{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thx_request h1{
+    font-size: 3rem;
+    color: #148f3d;
+}
+
+.thx_request p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+@keyframes colorP{
+    0% {
+        color: #b31b1b;
+        transform: scale(1.2);
+    }
+
+    25% {
+        color: #b3461b;
+    }
+
+    50% {
+        color:#b3581b ;
+    }
+
+    75%{
+        color: #d19b4a;
+    }
+
+    100% {
+        color: #b31b1b;
+    }
+}
+
+.color_p{
+    animation: colorP 4s linear infinite alternate forwards;
+}

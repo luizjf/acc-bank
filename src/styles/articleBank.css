@@ -1,0 +1,61 @@
+
+.art_container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: white;
+    font-family: monospace, 'Arial';
+    max-width: 1365px;
+    overflow: hidden;
+    height: 420px;
+}
+
+.article_bank{
+    display: flex;
+}
+
+.last_art h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000b9;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.last_art h4{
+    margin-top: 25px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #0000005b;
+    margin-left: 20px;
+}
+
+.last_art p{
+    font-size: 12px;
+    color: #00000077;
+    margin-left: 20px;
+}
+
+.img_article{
+    margin-right: 20px;
+}
+
+.img_article img{
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#all h1{
+    font-size: 30px;
+    margin-left: 180px;
+    margin-top: 90px;
+    color: #000000b9;
+    font-family: 'Montserrat', 'Arial';
+    font-weight: 500;
+}
+
+
+
+

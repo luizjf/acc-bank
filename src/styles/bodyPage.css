@@ -1,0 +1,61 @@
+.bd_container{
+    display: flex;
+    width: 100%;
+    font-family: 'Montserrat', 'Arial';
+    max-width: 1365px;
+    overflow-x: hidden;
+}
+
+.sect_bank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect_acc{
+    margin-left: 180px;
+
+}
+
+.sect_acc h1{
+    font-size: 38px;
+    font-weight: 500;
+    color: #000000b9;
+}
+
+.sect_acc p{
+    color: #00000094;
+    font-size: 14px;
+}
+
+.btn-acc{
+    padding: 16px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+    background-image: linear-gradient(to right, #1bb34e, #4ad1b8);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.btn-acc:hover{
+    transform: scale(1.1);
+}
+
+.exampleAcc{
+    position: absolute;
+    width: 600px;
+    left: 700px;
+    top: 10px;
+    z-index: -1;
+}
+
+.bg_intro{
+    position: relative;
+    width: 850px;
+    z-index: -2;
+    bottom: 50px;
+    left: 180px;
+}
