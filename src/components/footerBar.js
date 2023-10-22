@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import '../styles/footerBar.css';
+import '../styles/Responsive.css';
 import { footerli } from '../constants/footerBarconst';
 
 import logo from '../images/logo-bank.png';

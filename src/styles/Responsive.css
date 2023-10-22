@@ -1,0 +1,272 @@
+@media screen and (max-width: 1309px) {
+  .exampleAcc{
+    left: 680px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  
+  *{
+    max-width: 480px;
+  }
+
+/*      NAV-BAR - RESPONSIVE - 480PX       */
+  .nav-container{
+    justify-content: space-between;
+  }
+
+  .nav-two ul li{
+    display: none;
+  }
+
+  .nav-two {
+    margin-left: 30px;
+  }
+
+  .btn-account{
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .open{
+    display: block;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.267);
+  }
+
+  .bar{
+    margin-right: 25px;
+  }
+
+  .dropdown-menu li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  /*     SECTION_BANK - RESPONSIVE - 480PX    */
+  .sect_bank{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr / 1fr !important;
+  }
+
+  .sect_acc{
+    text-align: center;
+    margin-left: -25px !important;
+    order: 1;
+  }
+
+  .sect_acc h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .sect_acc p{
+    color: #00000094;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .exampleAcc{
+    width: 415px !important;
+    left: 12px !important;
+    top: -100px !important;
+  }
+
+  .bg_intro{
+    width: 900px;
+    bottom: 0px !important;
+    left: -30px !important;
+  }
+
+  .btn-acc{
+    padding: 16px 24px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  /*      iNFORMATION_BANK - RESPONSIVE - 480PX       */
+  .container{
+    height: 170vh;
+  }
+
+  .sect_container{
+    margin-left: 0 !important;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .sect_container h1{
+    margin-left: 95px;
+    margin-right: 80px;
+  }
+
+  .sect_container p{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+
+  .informations{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .informations p{
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+
+  .logo_info {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  /*      ARTICLE_BANK - RESPONSIVE - 480PX       */
+  
+  #all h1{
+    font-size: 40px;
+    margin-left: 100px!important;
+    margin-top: 40px !important;
+  }
+
+  .art_container {
+    overflow: inherit !important;
+    margin-left: 25px !important;
+    text-align: center;
+    margin-top: 40px !important;
+  }
+
+  .article_bank{
+    flex-direction: column;
+  }
+
+  .last_art h2{
+    font-size: 22px !important;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .last_art h4{
+    font-size: 13px !important;
+  }
+
+  .last_art p{
+    font-size: 15px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /*      FOOTER_BAR - RESPONSIVE - 480PX       */
+
+  #cnt_footer{
+    margin-top: 280%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ftr_container{
+    flex-direction: column;
+    margin-left: 0 !important;
+    margin-right: 70px;
+    margin-top: 10px;
+  }
+
+  .ftr_container .logo{
+    margin-top: 0 !important;
+    margin-left: -60px;
+  }
+
+  .ftr_container h1{
+    font-size: 24px;
+    margin-left: 100px !important;
+    margin-bottom: 30px;
+  }
+
+  .ftr_container .midias{
+    position: inherit !important;
+    margin: 0 !important;
+    margin-left: 60px !important;
+  }
+
+  .ftr_container ul{
+    display: inherit !important;
+  }
+
+   .ftr_container li{
+    margin-right: 0  !important;
+    margin-left: 0 !important;
+    margin-bottom: 20px  !important;
+    font-size: 15px  !important;
+  }
+
+  .midias img{
+    width: 10% !important;
+  }
+
+  .invite{
+    margin-left: 70px !important;
+  }
+
+  .invite p {
+    font-size: 15px !important;
+  }
+
+
+  /*      FORM_PAGE - RESPONSIVE - 480PX       */
+
+  .form{
+    margin-left: 0 !important;
+  }
+
+  .form label{
+    font-size: 14px !important;
+  }
+
+  option{
+    font-size: 12px !important;
+  }
+
+  .form-welcome{
+    display: none;
+  }
+
+  .btn-form{
+    margin-top: 20px;
+  }
+
+  .form_cancel {
+    position: relative !important;
+    left: -115px;
+    top: -645px;
+    padding: 2px;
+  }
+
+  .thx_request{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .thx_request h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .thx_request p{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .requestB .form_cancel{
+    position: absolute !important;
+    left: -120px;
+    top: 200px;
+  }
+
+}

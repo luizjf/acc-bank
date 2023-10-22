@@ -1,6 +1,8 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import '../styles/bodyPage.css';
+import '../styles/Responsive.css';
+
 
 import background_intro from '../images/bg-intro-desktop.svg';
 import example_acc from '../images/image-mockups.png';
@@ -19,7 +21,7 @@ export default function SectionBank (){
                 <section className='sect_acc'>
                     <h1>Next generation digital banking</h1>
                     <p>Take your financial life online. Your ACCBank account will be 
-                        a one-stop-shop for spending, saving, budgeting, investing, and much more. 
+                       a one-stop-shop for spending, saving, budgeting, investing, and much more. 
                     </p>
 
                     <button className='btn-acc' onClick={handleRequestAccount}>Request Account</button>

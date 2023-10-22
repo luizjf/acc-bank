@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../styles/navBar.css'
 import logo from '../images/logo-bank.png';
-import { home } from '../constants/navBarconst';
-
 import { useNavigate } from 'react-router-dom';
+
+import { home } from '../constants/navBarconst';
+import DropdownMenu from '../constants/dropDownMenu';
 
 export default function NavBar() {
 
@@ -11,6 +12,12 @@ export default function NavBar() {
 
   const handleRequestAccount = () => {
     navigate('/form');
+  };
+
+  const [menuOpen, setMenuOpen] = useState(false); // Adicione este estado
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
@@ -28,8 +35,17 @@ export default function NavBar() {
           </nav>
       </div>
 
-        <button className='btn-account' onClick={handleRequestAccount}>Request Account</button>
+      <button className='btn-account' onClick={handleRequestAccount}>Request Account</button>
+
+      <div className="menu-toggle" onClick={toggleMenu}>
+        <div className={`bar ${menuOpen ? 'active' : ''}`}></div>
+        <div className={`bar ${menuOpen ? 'active' : ''}`}></div>
+        <div className={`bar ${menuOpen ? 'active' : ''}`}></div>
+      </div>
+
+      <DropdownMenu isOpen={menuOpen} /> 
 
     </div>
+
   );
 }

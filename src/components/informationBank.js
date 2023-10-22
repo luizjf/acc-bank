@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/informationBank.css';
-
+import '../styles/Responsive.css';
 
 import online_bank from '../images/icon-online.svg';
 import onboarding from '../images/icon-onboarding.svg';
@@ -12,7 +12,7 @@ export default function informationBank(){
         <div className='container'>
             <section className='sect_container'>
                 <h1>Why choose ACCBank?</h1>
-                <p> We leverage Open Banking to turn your bank account into your financial</p>
+                <p> We leverage Open Banking to turn your bank account into your financial hub.</p>
                 <p> Control your finances like never before.</p>
 
                 <section className='informations'>

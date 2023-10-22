@@ -57,3 +57,55 @@
     border: none;
     cursor: pointer;
 }
+
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+.bar.active{
+    background-image: linear-gradient(to right, #1bb34e, #4ad1b8)
+}
+  
+.menu-list {
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.open {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 10%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.dropdown-menu li {
+    cursor: pointer;
+    padding: 10px;
+    color: #0000008e;
+}
+  
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+    border-radius: 12px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import '../styles/style_constants/formPage.css';
 import '../styles/style_constants/requestBank.css';
+import '../styles/Responsive.css';
 
 import form_img from '../images/graphic_bank.jpg';
 

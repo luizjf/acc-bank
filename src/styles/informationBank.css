@@ -6,9 +6,10 @@
     overflow: hidden;
 }
 
+ 
 .sect_container{
     margin-left: 180px;
-    height: 420px;
+    margin-bottom: 50px;
 }
 
 .sect_container h1{
@@ -39,7 +40,6 @@
 
 .informations p{
     font-size: 12px;
-    color: #00000077;
 }
 
 .logo_info{

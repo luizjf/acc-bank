@@ -48,7 +48,6 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-
 .form-field {
     display: flex;
     justify-content: center;
@@ -163,7 +162,7 @@ select{
   top: 10px;
   left: 500px;
   transform: translateX(-50%);
-  transition: background-color 0.3s; /* Adicionando transição de cor de fundo */
+  transition: background-color 0.3s
 }
   
 .form_cancel::before {
