@@ -4,6 +4,30 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  *{
+    max-width: 100%;
+  }
+  
+  .exampleAcc{
+    left: 680px !important;
+  }
+
+  .form{ 
+    margin-left: 640px !important;
+  }
+
+  .form_cancel{
+    top: 50px;
+    left: 730px;
+    padding: 10px;
+  }
+
+  .btn-form{
+    margin-top: 20px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   
   *{
@@ -28,16 +52,16 @@
   }
 
   .menu-toggle {
-    display: flex;
+    display: flex !important;
   }
 
   .open{
-    display: block;
+    display: block !important;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.267);
   }
 
   .bar{
-    margin-right: 25px;
+    margin-right: 25px !important;
   }
 
   .dropdown-menu li {
@@ -234,7 +258,7 @@
   }
 
   .form-welcome{
-    display: none;
+    display: none !important;
   }
 
   .btn-form{
@@ -247,6 +271,8 @@
     top: -645px;
     padding: 2px;
   }
+
+  /*      REQUEST RESPONSE - RESPONSIVE - 480PX       */
 
   .thx_request{
     margin-left: 20px;

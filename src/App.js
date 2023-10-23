@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './styles/Responsive.css';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 import NavBar from './components/navBar';

@@ -2,5 +2,6 @@
   margin: 0 auto;
   padding: 0 auto;
   max-width: 1365px;
+  box-sizing: border-box;
 };
 
